@@ -1,0 +1,161 @@
+{
+  "paragraphs": [
+    {
+      "text": "//https://www.youtube.com/watch?v\u003dxU5TBS_MsAs\n\nprint(\"%html \u003ch1\u003ehello world html display system\u003c/h1\u003e\")",
+      "dateUpdated": "Dec 30, 2015 5:24:54 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451496262339_-1148967472",
+      "id": "20151230-172422_1716420438",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003ehello world html display system\u003c/h1\u003e"
+      },
+      "dateCreated": "Dec 30, 2015 5:24:22 PM",
+      "dateStarted": "Dec 30, 2015 5:24:54 PM",
+      "dateFinished": "Dec 30, 2015 5:24:55 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "print(\"%angular \u003ch1\u003ehello world angular display system \u003c/h1\u003e\")",
+      "dateUpdated": "Dec 30, 2015 5:24:58 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451496294911_-586803356",
+      "id": "20151230-172454_295763741",
+      "result": {
+        "code": "SUCCESS",
+        "type": "ANGULAR",
+        "msg": "\u003ch1\u003ehello world angular display system \u003c/h1\u003e"
+      },
+      "dateCreated": "Dec 30, 2015 5:24:54 PM",
+      "dateStarted": "Dec 30, 2015 5:24:58 PM",
+      "dateFinished": "Dec 30, 2015 5:24:58 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// bind var\u0027s\n\nprint(\"%angular \u003ch1\u003ehello world var \u003d {{value}} \u003c/h1\u003e\")",
+      "dateUpdated": "Dec 30, 2015 5:25:05 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451496298297_-413666351",
+      "id": "20151230-172458_160442916",
+      "result": {
+        "code": "SUCCESS",
+        "type": "ANGULAR",
+        "msg": "\u003ch1\u003ehello world var \u003d {{value}} \u003c/h1\u003e"
+      },
+      "dateCreated": "Dec 30, 2015 5:24:58 PM",
+      "dateStarted": "Dec 30, 2015 5:25:05 PM",
+      "dateFinished": "Dec 30, 2015 5:25:06 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "z.angularBind(\"value\", \"adfasdfasdf\")",
+      "dateUpdated": "Dec 30, 2015 5:25:15 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451496305870_858328837",
+      "id": "20151230-172505_256995217",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 30, 2015 5:25:05 PM",
+      "dateStarted": "Dec 30, 2015 5:25:15 PM",
+      "dateFinished": "Dec 30, 2015 5:25:15 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451496315307_-1965191744",
+      "id": "20151230-172515_1298220463",
+      "dateCreated": "Dec 30, 2015 5:25:15 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "html examples",
+  "id": "2B9D5DW2Q",
+  "angularObjects": {
+    "2B8SHHHTS": [],
+    "2B9ACXMHT": [
+      {
+        "name": "value",
+        "object": "adfasdfasdf",
+        "noteId": "2B9D5DW2Q"
+      }
+    ],
+    "2B6UM7CVZ": [],
+    "2B8K9KQZ1": []
+  },
+  "config": {},
+  "info": {}
+}
