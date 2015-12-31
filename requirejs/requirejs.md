@@ -64,7 +64,7 @@ var firstScript = document.getElementsByTagName('script')[0],
 """)
 
 ```
-Boom! RequireJS is loaded. Now less use it to load more d3 magic. Were are going to load [EventDrops](https://github.com/marmelab/EventDrops) and implement this [Demo](http://marmelab.com/EventDrops/) of it in a notebook.
+Boom! RequireJS is loaded. Now lets use it to load more d3 magic. Were are going to load [EventDrops](https://github.com/marmelab/EventDrops) and implement this [Demo](http://marmelab.com/EventDrops/) in this notebook.
 
 
 ```scala
