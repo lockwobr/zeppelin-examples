@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "//https://www.youtube.com/watch?v\u003dxU5TBS_MsAs\n\nprint(\"%html \u003ch1\u003ehello world html display system\u003c/h1\u003e\")",
-      "dateUpdated": "Dec 30, 2015 5:24:54 PM",
+      "dateUpdated": "Jan 4, 2016 9:21:09 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -28,14 +28,14 @@
         "msg": "\u003ch1\u003ehello world html display system\u003c/h1\u003e"
       },
       "dateCreated": "Dec 30, 2015 5:24:22 PM",
-      "dateStarted": "Dec 30, 2015 5:24:54 PM",
-      "dateFinished": "Dec 30, 2015 5:24:55 PM",
+      "dateStarted": "Jan 4, 2016 9:21:09 PM",
+      "dateFinished": "Jan 4, 2016 9:21:09 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "print(\"%angular \u003ch1\u003ehello world angular display system \u003c/h1\u003e\")",
-      "dateUpdated": "Dec 30, 2015 5:24:58 PM",
+      "dateUpdated": "Jan 4, 2016 9:21:09 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -46,7 +46,8 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
@@ -60,14 +61,14 @@
         "msg": "\u003ch1\u003ehello world angular display system \u003c/h1\u003e"
       },
       "dateCreated": "Dec 30, 2015 5:24:54 PM",
-      "dateStarted": "Dec 30, 2015 5:24:58 PM",
-      "dateFinished": "Dec 30, 2015 5:24:58 PM",
+      "dateStarted": "Jan 4, 2016 9:21:09 PM",
+      "dateFinished": "Jan 4, 2016 9:21:09 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "// bind var\u0027s\n\nprint(\"%angular \u003ch1\u003ehello world var \u003d {{value}} \u003c/h1\u003e\")",
-      "dateUpdated": "Dec 30, 2015 5:25:05 PM",
+      "dateUpdated": "Jan 4, 2016 9:21:09 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -78,7 +79,8 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
@@ -92,14 +94,14 @@
         "msg": "\u003ch1\u003ehello world var \u003d {{value}} \u003c/h1\u003e"
       },
       "dateCreated": "Dec 30, 2015 5:24:58 PM",
-      "dateStarted": "Dec 30, 2015 5:25:05 PM",
-      "dateFinished": "Dec 30, 2015 5:25:06 PM",
+      "dateStarted": "Jan 4, 2016 9:21:09 PM",
+      "dateFinished": "Jan 4, 2016 9:21:10 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "z.angularBind(\"value\", \"adfasdfasdf\")",
-      "dateUpdated": "Dec 30, 2015 5:25:15 PM",
+      "dateUpdated": "Jan 4, 2016 9:21:09 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -110,7 +112,8 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
@@ -124,8 +127,140 @@
         "msg": ""
       },
       "dateCreated": "Dec 30, 2015 5:25:05 PM",
-      "dateStarted": "Dec 30, 2015 5:25:15 PM",
-      "dateFinished": "Dec 30, 2015 5:25:15 PM",
+      "dateStarted": "Jan 4, 2016 9:21:10 PM",
+      "dateFinished": "Jan 4, 2016 9:21:10 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "print(\"%html \u003ch1\u003emake an updating angular form for running a report\u003c/h1\u003e\")",
+      "dateUpdated": "Jan 4, 2016 9:22:16 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451496315307_-1965191744",
+      "id": "20151230-172515_1298220463",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003emake an updating angular form for running a report\u003c/h1\u003e"
+      },
+      "dateCreated": "Dec 30, 2015 5:25:15 PM",
+      "dateStarted": "Jan 4, 2016 9:22:16 PM",
+      "dateFinished": "Jan 4, 2016 9:22:16 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// need to call angularBind first otherwise angular and angularWatch do not work\n\nz.angularBind(\"starttime\", \"\")\nz.angularBind(\"endtime\", \"\")\nz.angularBind(\"userId\", \"1234\")\nprint(s\"\"\"\n%angular \nstarttime-local: \u003cinput type\u003d\"datetime-local\" ng-model\u003d\"starttime\"\u003e\nendtime-local: \u003cinput type\u003d\"datetime-local\" ng-model\u003d\"endtime\"\u003e\nuserId: (1234) \u003cinput type\u003d\"text\" ng-model\u003d\"userId\"\u003e\n\u003cbutton class\u003d\"btn btn-success\" ng-model\u003d\"Run\" ng-click\u003d\"Run\u003dRun+1\"\u003eRun\u003c/button\u003e\n\n\"\"\")",
+      "dateUpdated": "Jan 4, 2016 9:25:54 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451942536621_-578476888",
+      "id": "20160104-212216_1194381266",
+      "result": {
+        "code": "SUCCESS",
+        "type": "ANGULAR",
+        "msg": "\nstarttime-local: \u003cinput type\u003d\"datetime-local\" ng-model\u003d\"starttime\"\u003e\nendtime-local: \u003cinput type\u003d\"datetime-local\" ng-model\u003d\"endtime\"\u003e\nuserId: (1234) \u003cinput type\u003d\"text\" ng-model\u003d\"userId\"\u003e\n\u003cbutton class\u003d\"btn btn-success\" ng-model\u003d\"Run\" ng-click\u003d\"Run\u003dRun+1\"\u003eRun\u003c/button\u003e\n\n"
+      },
+      "dateCreated": "Jan 4, 2016 9:22:16 PM",
+      "dateStarted": "Jan 4, 2016 9:25:54 PM",
+      "dateFinished": "Jan 4, 2016 9:25:55 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "z.angularUnwatch(\"Run\")\nvar starttime \u003d \"\"\nvar endtime \u003d \"\"\nvar userId \u003d \"\"\nval iCon\u003d z.getInterpreterContext()\nz.angularBind(\"Run\", 0)\nz.angularWatch(\"Run\", (before, after) \u003d\u003e {\n    starttime \u003d z.angular(\"starttime\").toString\n    endtime \u003dz.angular(\"endtime\").toString\n    userId \u003dz.angular(\"userId\").toString\n    z.run(7, iCon)\n})",
+      "dateUpdated": "Jan 4, 2016 9:28:18 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451942638086_-324002979",
+      "id": "20160104-212358_2095760095",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "starttime: String \u003d \"\"\nendtime: String \u003d \"\"\nuserId: String \u003d \"\"\niCon: org.apache.zeppelin.interpreter.InterpreterContext \u003d org.apache.zeppelin.interpreter.InterpreterContext@7f574f05\n"
+      },
+      "dateCreated": "Jan 4, 2016 9:23:58 PM",
+      "dateStarted": "Jan 4, 2016 9:28:18 PM",
+      "dateFinished": "Jan 4, 2016 9:28:19 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "userId\r\nstarttime\r\nendtime",
+      "dateUpdated": "Jan 4, 2016 9:26:48 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451942656325_-1275086936",
+      "id": "20160104-212416_843475771",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res873: String \u003d 1234\nres874: String \u003d 2016-12-31T20:59:00.000Z\nres875: String \u003d 2016-01-01T09:00:00.000Z\n"
+      },
+      "dateCreated": "Jan 4, 2016 9:24:16 PM",
+      "dateStarted": "Jan 4, 2016 9:28:21 PM",
+      "dateFinished": "Jan 4, 2016 9:28:21 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -135,9 +270,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1451496315307_-1965191744",
-      "id": "20151230-172515_1298220463",
-      "dateCreated": "Dec 30, 2015 5:25:15 PM",
+      "jobName": "paragraph_1451942669501_-992650595",
+      "id": "20160104-212429_729649398",
+      "dateCreated": "Jan 4, 2016 9:24:29 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -148,8 +283,33 @@
     "2B8SHHHTS": [],
     "2B9ACXMHT": [
       {
+        "name": "endtime",
+        "object": "2016-01-01T09:00:00.000Z",
+        "noteId": "2B9D5DW2Q"
+      },
+      {
+        "name": "starttime",
+        "object": "2016-12-31T20:59:00.000Z",
+        "noteId": "2B9D5DW2Q"
+      },
+      {
+        "name": "userId",
+        "object": "1234",
+        "noteId": "2B9D5DW2Q"
+      },
+      {
         "name": "value",
         "object": "adfasdfasdf",
+        "noteId": "2B9D5DW2Q"
+      },
+      {
+        "name": "Run",
+        "object": 1.0,
+        "noteId": "2B9D5DW2Q"
+      },
+      {
+        "name": "endTime",
+        "object": "",
         "noteId": "2B9D5DW2Q"
       }
     ],
